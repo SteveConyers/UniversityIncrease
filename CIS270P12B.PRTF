@@ -1,0 +1,32 @@
+000001230423     A                                      REF(MYSECTIONS)
+000002230427     A          R HEADING                   SKIPB(1)
+000003230423     A                                    32'Wexler University Student Journal'
+000004230423     A                                     3'Steven Conyers'
+000100230423     A                                    76DATE(*JOB) EDTCDE(Y)
+000112230427     A                                     4'Section #'
+000113230427     A                                      SPACEB(4)
+000114230427     A                                    24'Department'
+000115230423     A                                    41'Course #'
+000116230423     A                                    58'Enrollment Allowed'
+000117230423     A                                    83'Currently Enrolled'
+000118230427     A                                      SPACEA(1)
+000119230427     A          R DETAIL                    SPACEA(1)
+000120230427     A            SECTION   R              6REFFLD(SECREC/SECTION F21CONYERS/MY-
+000121230423     A                                      SECTIONS)
+000122230427     A            DEPT      R             27REFFLD(SECREC/DEPT F21CONYERS/MYSEC-
+000123230423     A                                      TIONS)
+000124230427     A            CRSNO     R             43REFFLD(SECREC/CRSNO F21CONYERS/MYSE-
+000125230423     A                                      CTIONS)
+000126230427     A            CAP       R             64REFFLD(SECREC/CAP F21CONYERS/MYSECT-
+000127230423     A                                      IONS)
+000128230423     A                                      EDTCDE(Z)
+000129230427     A            CURENL    R             91REFFLD(SECREC/CURENL F21CONYERS/MYS-
+000130230423     A                                      ECTIONS)
+000131230423     A                                      EDTCDE(Z)
+000132230425     A*%%RS+<record-sequences>
+000133230425     A*%%RS+ <sequence name="Untitled">
+000134230425     A*%%RS+  <device type="printer" width="132" height="66" />
+000135230425     A*%%RS+  <record-write record-format="HEADING" />
+000136230425     A*%%RS+  <record-write record-format="DETAIL" />
+000137230425     A*%%RS+ </sequence>
+000138230425     A*%%RS </record-sequences>
